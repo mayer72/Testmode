@@ -22,6 +22,7 @@ class AuthTest {
     @BeforeEach
     void setup() {
         open("http://localhost:9999");
+        Duration.ofSeconds(10);
     }
 
     @Test
